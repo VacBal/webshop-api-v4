@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const ProductList: React.FC = () => {
     const [products, setProducts] = useState<any[]>([]);
